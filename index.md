@@ -1,4 +1,4 @@
-# hi, i m ash k, here s my stuff
+## links
 
 - [discord](https://discord.gg/V8xS9nTrv7)
 - [games](https://ash-k.itch.io)
@@ -7,3 +7,6 @@
 - [email](mailto:lev.kamenskyi@gmail.com)
 - [agile tutorial](agile_tutorial.pdf)
 
+## portfolio
+
+not here yet, will add eventually
