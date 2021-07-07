@@ -6,6 +6,7 @@
 - [patreon](https://www.patreon.com/ash_k)
 - [email](mailto:lev.kamenskyi@gmail.com)
 - [agile tutorial](agile_tutorial.pdf)
+- [do-cracy](https://www.noisebridge.net/wiki/Do-ocracy)
 
 ## portfolio
 
