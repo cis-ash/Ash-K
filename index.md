@@ -1,3 +1,7 @@
+## portfolio
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QPw1kjUbgwg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## links
 
 - [discord](https://discord.gg/V8xS9nTrv7)
@@ -7,8 +11,3 @@
 - [email](mailto:ashkamensk@gmail.com)
 - [agile tutorial](agile_tutorial.pdf)
 - [do-cracy](https://www.noisebridge.net/wiki/Do-ocracy)
-
-## portfolio
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QPw1kjUbgwg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
