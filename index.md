@@ -9,5 +9,6 @@
 - [twitter](https://twitter.co/cis_ash)
 - [patreon](https://www.patreon.com/ash_k)
 - [email](mailto:ashkamensk@gmail.com)
+- [linked in](https://www.linkedin.com/in/ash-kamenska-46556920a/)
 - [agile tutorial](agile_tutorial.pdf)
 - [do-cracy](https://www.noisebridge.net/wiki/Do-ocracy)
