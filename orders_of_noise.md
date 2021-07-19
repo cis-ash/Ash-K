@@ -103,7 +103,7 @@ Serotonin imitating psychedelics (psilocybin, mescaline, LSD, etc.) lower the th
 
 After having quite a few experiences with them, most positive, a few neutral, I would definitely recommend you to give them a try. Quite a few procedural image generators in [loconundrum](https://ash-k.itch.io/loconundrum) were conceived while under the effects of psilocybin. A lot of refining of those ideas was needed afterwards. This is not an easy one step process, they will not make you suddenly creative or solve your problems. I believe psychedelics are just a tool you can use for inspiration/ reflecting on past ideas.
 
-Always remember to do your own research on effects and laws surrounding a substance, buy from a trusted source, weigh your dose and start small. Some of the substances mentioned above are very inconsistent as to what is illegal in what country and to what degree, ranging from being 100% legal in some places to tightly controlled in others. 
+Always remember to do your own research on effects and laws surrounding a substance, buy from a trusted source, weigh your dose and start small. Some of the substances mentioned above are very inconsistent as to what version of them is illegal in what country and to what degree, ranging from being 100% legal in some places to tightly controlled in others. 
 
 
 
