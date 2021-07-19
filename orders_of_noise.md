@@ -88,20 +88,20 @@ Another good thing about finding inspiration in noise is that the idea is 100% y
 
 ### Psychedelics
 
-They are good at helping you find inspiration. Your thoughts tend to flow with less restrictions, resulting in them find connections you didn't know existed in your head as well as being able to go to places you didn't know were possible. Too little restriction(dose too big) and your thoughts will move chaotically, too much restriction(small dose/sober) - and you end up with similar results every time.
+They are good at helping you find inspiration. Your thoughts tend to flow with less restrictions, resulting in them finding connections you didn't know existed in your head as well as being able to go to places you didn't know were possible. Too little restriction(dose too big) and your thoughts will move chaotically, too much restriction(small dose/sober) - and you end up with similar results every time.
 
-Another thing that makes them good for finding inspiration in noise is that they tend to lower your threshold for noticing patterns, both in thoughts, ideas and in your environment. This results in a lot more cases of your brain noticing something in the noise that makes sense to it.
+Another thing that makes them good for finding inspiration in noise is that they tend to lower your threshold for noticing patterns, both in thoughts, ideas and in your environment. This results in a lot more cases of your brain noticing something in the noise that makes sense to it. Causing it to move to a new unexplored spot.
 
 #### Extra info abt psychedelics
 
-Serotonin imitating psychedelics (psilocybin, mescaline, LSD, etc.) lower the threshold of some of your brain processes by binding to **a few specific types** of serotonin receptors in your brain. What is good about them:
+Serotonin imitating psychedelics (psilocybin, mescaline, LSD, etc.) lower the threshold of some of your brain processes by binding to ***a few specific types*** of serotonin receptors in your brain. What is good about them:
 
 * they are not addictive
 * not harmful to your body
 * impossible to overdose on
 * have low potential for abuse as they just stop working for a week or two after you use them once, ingesting them during this period results in nothing happening or the effect being significantly less potent(aka wasting them when you could have waited).
 
-After having quite a few experiences with them, most positive, a few neutral, I would definitely recommend you to give them a try. Quite a few procedural image generators in [loconundrum](https://ash-k.itch.io/loconundrum) were conceived while under the effects of psilocybin. A lot of refining of those ideas was needed afterwards. 
+After having quite a few experiences with them, most positive, a few neutral, I would definitely recommend you to give them a try. Quite a few procedural image generators in [loconundrum](https://ash-k.itch.io/loconundrum) were conceived while under the effects of psilocybin. A lot of refining of those ideas was needed afterwards. This is not an easy one step process, they will not make you suddenly creative or solve your problems. I believe psychedelics are just a tool you can use for inspiration/ reflecting on past ideas.
 
 Always remember to do your own research on effects and laws surrounding a substance, buy from a trusted source, weigh your dose and start small. Some of the substances mentioned above are very inconsistent as to what is illegal in what country and to what degree, ranging from being 100% legal in some places to tightly controlled in others. 
 
