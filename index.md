@@ -10,5 +10,10 @@
 - [patreon](https://www.patreon.com/ash_k)
 - [email](mailto:ashkamensk@gmail.com)
 - [linked in](https://www.linkedin.com/in/ash-kamenska-46556920a/)
-- [agile tutorial](agile_tutorial.pdf)
-- [do-cracy](https://www.noisebridge.net/wiki/Do-ocracy)
+
+## Writing
+
+- [agile tutorial](agile_tutorial.pdf) : an introduction for teammates
+- [orders of noise](orders_of_noise.html) : article about animals, drugs, culture and creativity
+- [sending data to sheets](sending_data_to_sheets.html) : get telemetry from game to google sheets (no $$$ required)
+- [do-cracy](https://www.noisebridge.net/wiki/Do-ocracy) : guide to low scale organization from noisebridge
