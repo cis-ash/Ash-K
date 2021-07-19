@@ -78,7 +78,7 @@ After finding out about it and its lack of meaning my mother came up with the id
 
 Some people might be put off by the idea of publishing or consuming high level noise the same way as with any other type of content. I am one of them.
 
-Another way of utilizing noise in your creative process is by drawing inspiration from it. If you look at a jumble of words or images you are likely to see some patterns in them. This is similar to the process of brainstorming ideas. Except instead of asking yourself and your teammates to generate noise, you get it from a less human source. A big difference is that while during brainstorming the ideas that circulate are usually adjacent to the core theme of discussion. That means more sensible ideas but less variety. 
+Another way of utilizing noise in your creative process is by drawing inspiration from it. If you look at a jumble of words or images you are likely to see some patterns in them. This is similar to the process of brainstorming ideas. Except instead of asking yourself and your teammates to generate noise, you get it from a less human source. A big difference is that while brainstorming the ideas that circulate are usually adjacent to the core theme of discussion. That means more sensible ideas but less variety. 
 
 After you find something in the noise that sparks a thought somewhere in your brain - stop and follow it. Where does it lead you, is it any good?
 
