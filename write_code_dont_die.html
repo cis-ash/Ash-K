@@ -1,0 +1,1147 @@
+<!doctype html>
+<html style='font-size:20px !important'>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+
+<link href='https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Source+Sans+Pro&display=swap' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; --title-bar-height:20px; }
+.mac-os-11 { --title-bar-height:28px; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 36px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+.typora-export .task-list-item input { pointer-events: none; }
+@media screen and (max-width: 500px) {
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
+}
+#write li > figure:last-child { margin-bottom: 0.5rem; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
+button, input, select, textarea { color: inherit; font: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+p { line-height: inherit; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 4; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px; }
+tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
+.CodeMirror-linenumber { user-select: none; }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
+.md-fences-adv-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li blockquote { margin: 1rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print {
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  .typora-export #write { break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+  .is-mac table { break-inside: avoid; }
+  .typora-export-show-outline .typora-export-sidebar { display: none; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+#write.first-line-indent p > .md-image:only-child:not(.md-img-error) img { left: -2em; position: relative; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+.MathJax_ref { fill: currentcolor; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) {
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
+code { text-align: left; vertical-align: initial; }
+a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+.md-inline-math .MathJax_SVG .noError { display: none !important; }
+.html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
+.md-fences-math .MathJax_SVG_Display, .md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: visible; display: block !important; }
+.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
+.MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
+.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; overflow-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; zoom: 90%; }
+#math-inline-preview-content { zoom: 1.1; }
+.MathJax_SVG * { transition: none 0s ease 0s; }
+.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; margin-top: 0px !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
+.md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
+.md-expand mark .md-meta { opacity: 0.3 !important; }
+mark .md-meta { color: rgb(0, 0, 0); }
+@media print {
+  .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
+}
+.md-diagram-panel .messageText { stroke: none !important; }
+.md-diagram-panel .start-state { fill: var(--node-fill); }
+.md-diagram-panel .edgeLabel rect { opacity: 1 !important; }
+.md-require-zoom-fix foreignobject { font-size: var(--mermaid-font-zoom); }
+.md-fences.md-fences-math { font-size: 1em; }
+.md-fences-math .MathJax_SVG_Display { margin-top: 8px; cursor: default; }
+.md-fences-advanced:not(.md-focus) { padding: 0px; white-space: nowrap; border: 0px; }
+.md-fences-advanced:not(.md-focus) { background: inherit; }
+.typora-export-show-outline .typora-export-content { max-width: 1440px; margin: auto; display: flex; flex-direction: row; }
+.typora-export-sidebar { width: 300px; font-size: 0.8rem; margin-top: 80px; margin-right: 18px; }
+.typora-export-show-outline #write { --webkit-flex:2; flex: 2 1 0%; }
+.typora-export-sidebar .outline-content { position: fixed; top: 0px; max-height: 100%; overflow: hidden auto; padding-bottom: 30px; padding-top: 60px; width: 300px; }
+@media screen and (max-width: 1024px) {
+  .typora-export-sidebar, .typora-export-sidebar .outline-content { width: 240px; }
+}
+@media screen and (max-width: 800px) {
+  .typora-export-sidebar { display: none; }
+}
+.outline-content li, .outline-content ul { margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; list-style: none; }
+.outline-content ul { margin-top: 0px; margin-bottom: 0px; }
+.outline-content strong { font-weight: 400; }
+.outline-expander { width: 1rem; height: 1.42857rem; position: relative; display: table-cell; vertical-align: middle; cursor: pointer; padding-left: 4px; }
+.outline-expander::before { content: ""; position: relative; font-family: Ionicons; display: inline-block; font-size: 8px; vertical-align: middle; }
+.outline-item { padding-top: 3px; padding-bottom: 3px; cursor: pointer; }
+.outline-expander:hover::before { content: ""; }
+.outline-h1 > .outline-item { padding-left: 0px; }
+.outline-h2 > .outline-item { padding-left: 1em; }
+.outline-h3 > .outline-item { padding-left: 2em; }
+.outline-h4 > .outline-item { padding-left: 3em; }
+.outline-h5 > .outline-item { padding-left: 4em; }
+.outline-h6 > .outline-item { padding-left: 5em; }
+.outline-label { cursor: pointer; display: table-cell; vertical-align: middle; text-decoration: none; color: inherit; }
+.outline-label:hover { text-decoration: underline; }
+.outline-item:hover { border-color: rgb(245, 245, 245); background-color: var(--item-hover-bg-color); }
+.outline-item:hover { margin-left: -28px; margin-right: -28px; border-left: 28px solid transparent; border-right: 28px solid transparent; }
+.outline-item-single .outline-expander::before, .outline-item-single .outline-expander:hover::before { display: none; }
+.outline-item-open > .outline-item > .outline-expander::before { content: ""; }
+.outline-children { display: none; }
+.info-panel-tab-wrapper { display: none; }
+.outline-item-open > .outline-children { display: block; }
+.typora-export .outline-item { padding-top: 1px; padding-bottom: 1px; }
+.typora-export .outline-item:hover { margin-right: -8px; border-right: 8px solid transparent; }
+.typora-export .outline-expander::before { content: "+"; font-family: inherit; top: -1px; }
+.typora-export .outline-expander:hover::before, .typora-export .outline-item-open > .outline-item > .outline-expander::before { content: "−"; }
+.typora-export-collapse-outline .outline-children { display: none; }
+.typora-export-collapse-outline .outline-item-open > .outline-children, .typora-export-no-collapse-outline .outline-children { display: block; }
+.typora-export-no-collapse-outline .outline-expander::before { content: "" !important; }
+.typora-export-show-outline .outline-item-active > .outline-item .outline-label { font-weight: 700; }
+
+
+.CodeMirror { height: auto; }
+.CodeMirror.cm-s-inner { background: inherit; }
+.CodeMirror-scroll { overflow: auto hidden; z-index: 3; }
+.CodeMirror-gutter-filler, .CodeMirror-scrollbar-filler { background-color: rgb(255, 255, 255); }
+.CodeMirror-gutters { border-right: 1px solid rgb(221, 221, 221); background: inherit; white-space: nowrap; }
+.CodeMirror-linenumber { padding: 0px 3px 0px 5px; text-align: right; color: rgb(153, 153, 153); }
+.cm-s-inner .cm-keyword { color: rgb(119, 0, 136); }
+.cm-s-inner .cm-atom, .cm-s-inner.cm-atom { color: rgb(34, 17, 153); }
+.cm-s-inner .cm-number { color: rgb(17, 102, 68); }
+.cm-s-inner .cm-def { color: rgb(0, 0, 255); }
+.cm-s-inner .cm-variable { color: rgb(0, 0, 0); }
+.cm-s-inner .cm-variable-2 { color: rgb(0, 85, 170); }
+.cm-s-inner .cm-variable-3 { color: rgb(0, 136, 85); }
+.cm-s-inner .cm-string { color: rgb(170, 17, 17); }
+.cm-s-inner .cm-property { color: rgb(0, 0, 0); }
+.cm-s-inner .cm-operator { color: rgb(152, 26, 26); }
+.cm-s-inner .cm-comment, .cm-s-inner.cm-comment { color: rgb(170, 85, 0); }
+.cm-s-inner .cm-string-2 { color: rgb(255, 85, 0); }
+.cm-s-inner .cm-meta { color: rgb(85, 85, 85); }
+.cm-s-inner .cm-qualifier { color: rgb(85, 85, 85); }
+.cm-s-inner .cm-builtin { color: rgb(51, 0, 170); }
+.cm-s-inner .cm-bracket { color: rgb(153, 153, 119); }
+.cm-s-inner .cm-tag { color: rgb(17, 119, 0); }
+.cm-s-inner .cm-attribute { color: rgb(0, 0, 204); }
+.cm-s-inner .cm-header, .cm-s-inner.cm-header { color: rgb(0, 0, 255); }
+.cm-s-inner .cm-quote, .cm-s-inner.cm-quote { color: rgb(0, 153, 0); }
+.cm-s-inner .cm-hr, .cm-s-inner.cm-hr { color: rgb(153, 153, 153); }
+.cm-s-inner .cm-link, .cm-s-inner.cm-link { color: rgb(0, 0, 204); }
+.cm-negative { color: rgb(221, 68, 68); }
+.cm-positive { color: rgb(34, 153, 34); }
+.cm-header, .cm-strong { font-weight: 700; }
+.cm-del { text-decoration: line-through; }
+.cm-em { font-style: italic; }
+.cm-link { text-decoration: underline; }
+.cm-error { color: red; }
+.cm-invalidchar { color: red; }
+.cm-constant { color: rgb(38, 139, 210); }
+.cm-defined { color: rgb(181, 137, 0); }
+div.CodeMirror span.CodeMirror-matchingbracket { color: rgb(0, 255, 0); }
+div.CodeMirror span.CodeMirror-nonmatchingbracket { color: rgb(255, 34, 34); }
+.cm-s-inner .CodeMirror-activeline-background { background: inherit; }
+.CodeMirror { position: relative; overflow: hidden; }
+.CodeMirror-scroll { height: 100%; outline: 0px; position: relative; box-sizing: content-box; background: inherit; }
+.CodeMirror-sizer { position: relative; }
+.CodeMirror-gutter-filler, .CodeMirror-hscrollbar, .CodeMirror-scrollbar-filler, .CodeMirror-vscrollbar { position: absolute; z-index: 6; display: none; }
+.CodeMirror-vscrollbar { right: 0px; top: 0px; overflow: hidden; }
+.CodeMirror-hscrollbar { bottom: 0px; left: 0px; overflow: hidden; }
+.CodeMirror-scrollbar-filler { right: 0px; bottom: 0px; }
+.CodeMirror-gutter-filler { left: 0px; bottom: 0px; }
+.CodeMirror-gutters { position: absolute; left: 0px; top: 0px; padding-bottom: 30px; z-index: 3; }
+.CodeMirror-gutter { white-space: normal; height: 100%; box-sizing: content-box; padding-bottom: 30px; margin-bottom: -32px; display: inline-block; }
+.CodeMirror-gutter-wrapper { position: absolute; z-index: 4; background: 0px 0px !important; border: none !important; }
+.CodeMirror-gutter-background { position: absolute; top: 0px; bottom: 0px; z-index: 4; }
+.CodeMirror-gutter-elt { position: absolute; cursor: default; z-index: 4; }
+.CodeMirror-lines { cursor: text; }
+.CodeMirror pre { border-radius: 0px; border-width: 0px; background: 0px 0px; font-family: inherit; font-size: inherit; margin: 0px; white-space: pre; overflow-wrap: normal; color: inherit; z-index: 2; position: relative; overflow: visible; }
+.CodeMirror-wrap pre { overflow-wrap: break-word; white-space: pre-wrap; word-break: normal; }
+.CodeMirror-code pre { border-right: 30px solid transparent; width: fit-content; }
+.CodeMirror-wrap .CodeMirror-code pre { border-right: none; width: auto; }
+.CodeMirror-linebackground { position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px; z-index: 0; }
+.CodeMirror-linewidget { position: relative; z-index: 2; overflow: auto; }
+.CodeMirror-wrap .CodeMirror-scroll { overflow-x: hidden; }
+.CodeMirror-measure { position: absolute; width: 100%; height: 0px; overflow: hidden; visibility: hidden; }
+.CodeMirror-measure pre { position: static; }
+.CodeMirror div.CodeMirror-cursor { position: absolute; visibility: hidden; border-right: none; width: 0px; }
+.CodeMirror div.CodeMirror-cursor { visibility: hidden; }
+.CodeMirror-focused div.CodeMirror-cursor { visibility: inherit; }
+.cm-searching { background: rgba(255, 255, 0, 0.4); }
+span.cm-underlined { text-decoration: underline; }
+span.cm-strikethrough { text-decoration: line-through; }
+.cm-tw-syntaxerror { color: rgb(255, 255, 255); background-color: rgb(153, 0, 0); }
+.cm-tw-deleted { text-decoration: line-through; }
+.cm-tw-header5 { font-weight: 700; }
+.cm-tw-listitem:first-child { padding-left: 10px; }
+.cm-tw-box { border-style: solid; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-color: inherit; border-top-width: 0px !important; }
+.cm-tw-underline { text-decoration: underline; }
+@media print {
+  .CodeMirror div.CodeMirror-cursor { visibility: hidden; }
+}
+
+
+@include-when-export url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Source+Sans+Pro&display=swap');
+
+/* cyrillic-ext */
+/* cyrillic */
+/* greek-ext */
+/* greek */
+/* vietnamese */
+/* latin-ext */
+/* latin */
+/* cyrillic-ext */
+/* cyrillic */
+/* greek-ext */
+/* greek */
+/* vietnamese */
+/* latin-ext */
+/* latin */
+/* cyrillic-ext */
+/* cyrillic */
+/* greek-ext */
+/* greek */
+/* vietnamese */
+/* latin-ext */
+/* latin */
+/* cyrillic-ext */
+/* cyrillic */
+/* greek-ext */
+/* greek */
+/* vietnamese */
+/* latin-ext */
+/* latin */
+:root {
+  --side-bar-bg-color: #ffffff;
+  --control-text-color: #777777;
+  --select-text-bg-color: #faa295;
+  --active-file-text-color: #262626;
+  --active-file-border-color: #f22f27;
+
+  /* --active-file-bg-color: #fff3f0; */
+  --primary-color: #f22f27;
+
+  /* 中性色 */
+  --mid-1: #ffffff;
+  --mid-2: #fafafa;
+  --mid-3: #f5f5f5;
+  --mid-4: #f0f0f0;
+  --mid-5: #d9d9d9;
+  --mid-6: #bfbfbf;
+  --mid-7: #8c8c8c;
+  --mid-8: #595959;
+  --mid-9: #434343;
+  --mid-10: #262626;
+  --mid-11: #1f1f1f;
+  --mid-12: #141414;
+  --mid-13: #000000;
+
+  /* 主题色 */
+  --main-1: #fff3f0;
+  --main-2: #ffd4cc;
+  --main-3: #ffafa3;
+  --main-4: #ff887a;
+  --main-5: #ff5d52;
+  --main-6: #f22f27;
+  --main-7: #cc1616;
+  --main-8: #a60a0f;
+  --main-9: #80010a;
+  --main-10: #590009;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: 'Source Sans Pro', '等距更纱黑体 SC', 'Helvetica Neue', Arial, sans-serif !important;
+  line-height: 1.8rem;
+  color: var(--mid-10);
+  letter-spacing: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+#write {
+  max-width: 860px;
+  padding: 20px 30px 160px;
+  margin: 0 auto;
+}
+
+#write p {
+  word-spacing: 0.05rem;
+}
+
+#write ol li {
+  margin-left: -4px;
+}
+
+#write ol li p {
+  margin-left: 4px;
+}
+
+#write ul {
+  line-height: 2rem;
+}
+
+#write > ul:first-child,
+#write > ol:first-child {
+  margin-top: 30px;
+}
+
+body > *:first-child {
+  margin-top: 0 !important;
+}
+
+body > *:last-child {
+  margin-bottom: 0 !important;
+}
+
+a {
+  padding: 0 2px;
+  font-weight: 500;
+  color: var(--main-6);
+  text-decoration: none;
+}
+
+/* 链接 */
+#write a {
+  color: var(--main-6);
+  text-decoration: none;
+  border-bottom: 1px solid var(--main-6);
+}
+
+/* 链接内容为空时直接啥也不显示，比如锚点的地方 */
+#write a:empty {
+  font-size: 0;
+  border: none;
+}
+
+/* 目录 */
+#write a.md-toc-inner {
+  line-height: 1.6;
+  white-space: pre-line;
+  border-bottom: none;
+}
+
+#write a:hover {
+  color: var(--main-7);
+  border-bottom: 2px solid var(--main-6);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  position: relative;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  line-height: 1.4;
+  cursor: text;
+}
+
+h1:hover a.anchor,
+h2:hover a.anchor,
+h3:hover a.anchor,
+h4:hover a.anchor,
+h5:hover a.anchor,
+h6:hover a.anchor {
+  text-decoration: none;
+}
+
+h1 tt,
+h1 code,
+h2 tt,
+h2 code,
+h3 tt,
+h3 code,
+h4 tt,
+h4 code,
+h5 tt,
+h5 code,
+h6 tt,
+h6 code {
+  font-size: inherit !important;
+}
+
+h2 a,
+h3 a {
+  color: var(--mid-9);
+}
+
+h1 {
+  padding-bottom: 0.3em;
+  margin: 2.4em auto 1.2em;
+  font-size: 2em;
+  line-height: 1.2;
+  text-align: center;
+}
+
+h1::after {
+  display: block;
+  width: 100px;
+  height: 2px;
+  margin: 0.2em auto 0;
+  content: '';
+  border-bottom: 2px dashed var(--main-6);
+}
+
+h2 {
+  padding-left: 6px;
+  margin: 2em auto 1.4em;
+  font-size: 1.6em;
+  line-height: 1.4;
+  border-left: 6px solid var(--main-6);
+}
+
+h3 {
+  margin: 1.6em auto 1.2em;
+  font-size: 1.35em;
+  line-height: 1.43;
+}
+
+/* --- 三级标题左边的小圆点 --- */
+h3::before {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin-right: 6px;
+  margin-bottom: 0.18em;
+  line-height: 1.43;
+  vertical-align: middle;
+  content: '';
+  background-color: var(--main-5);
+  border-radius: 50%;
+}
+
+/* 三级四级标题点击后左边的提示图标 */
+#write > h3.md-focus::before,
+#write > h4.md-focus::before {
+  width: auto;
+  height: auto;
+  color: var(--mid-1);
+  background-color: var(--main-5);
+}
+
+h4 {
+  margin-top: 1.4em;
+  font-size: 1.2em;
+}
+
+/* --- 四级标题左边的小短线 --- */
+h4::before {
+  display: inline-block;
+  width: 6px;
+  height: 2px;
+  margin-right: 8px;
+  margin-bottom: 0.18em;
+  vertical-align: middle;
+  content: '';
+  background-color: var(--main-4);
+}
+
+h5 {
+  font-size: 1em;
+}
+
+h6 {
+  font-size: 1em;
+  color: var(--mid-7);
+}
+
+p,
+blockquote,
+ul,
+ol,
+dl,
+table {
+  margin: 0.8em 0;
+}
+
+li > ol,
+li > ul {
+  margin: 0;
+}
+
+hr {
+  box-sizing: content-box;
+  width: 100%;
+  height: 1px;
+  padding: 0;
+  margin: 46px auto 64px;
+  overflow: hidden;
+  background-color: var(--main-4);
+  border: 0;
+}
+
+body > h2:first-child {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+body > h1:first-child {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+body > h1:first-child + h2 {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+body > h3:first-child,
+body > h4:first-child,
+body > h5:first-child,
+body > h6:first-child {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+a:first-child h1,
+a:first-child h2,
+a:first-child h3,
+a:first-child h4,
+a:first-child h5,
+a:first-child h6 {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+h1 p,
+h2 p,
+h3 p,
+h4 p,
+h5 p,
+h6 p {
+  margin-top: 0;
+}
+
+li p.first {
+  display: inline-block;
+}
+
+ul,
+ol {
+  padding-left: 30px;
+}
+
+ul:first-child,
+ol:first-child {
+  margin-top: 0;
+}
+
+ul:last-child,
+ol:last-child {
+  margin-bottom: 0;
+}
+
+/* --- 引用块 --- */
+blockquote {
+  position: relative;
+  padding: 24px 16px 12px;
+  margin: 24px 0 36px;
+  font-size: 1em;
+  font-style: normal;
+  line-height: 1.6;
+  color: var(--mid-7);
+  text-indent: 0;
+  border: none;
+  border-left: 2px solid var(--main-6);
+}
+
+blockquote blockquote {
+  padding-right: 0;
+}
+
+blockquote a {
+  color: var(--main-4);
+}
+
+blockquote::before {
+  position: absolute;
+  top: 0;
+  left: 12px;
+  font-family: Arial, serif;
+  font-size: 2em;
+  font-weight: 700;
+  line-height: 1em;
+  color: var(--main-6);
+  content: '“';
+}
+
+table {
+  padding: 0;
+  margin: 36px auto;
+  word-break: initial;
+}
+
+table tr {
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid #dfe2e5;
+}
+
+table tr:nth-child(2n),
+thead {
+  background-color: var(--mid-3);
+}
+
+table tr th {
+  padding: 6px 13px;
+  margin: 0;
+  font-weight: bold;
+  text-align: left;
+  border: 1px solid #dfe2e5;
+  border-bottom: 0;
+}
+
+table tr td {
+  padding: 6px 13px;
+  margin: 0;
+  text-align: left;
+  border: 1px solid #dfe2e5;
+}
+
+table tr th:first-child,
+table tr td:first-child {
+  margin-top: 0;
+}
+
+table tr th:last-child,
+table tr td:last-child {
+  margin-bottom: 0;
+}
+
+#write table thead th {
+  text-align: center;
+  background-color: #f2f2f2;
+}
+
+#write strong {
+  padding: 0 1px;
+}
+
+#write em {
+  padding: 0 5px 0 2px;
+}
+
+#write .CodeMirror-gutters {
+  border-right: none;
+}
+
+/* 代码块 */
+#write .md-fences {
+  margin: 1.8rem 0 2rem !important;
+  font-family: Roboto Mono, Source Sans Pro, 'Microsoft YaHei', '微软雅黑' !important;
+  font-size: 0.9rem;
+  line-height: 1.55rem;
+  color: var(--mid-10);
+  word-wrap: normal;
+  -webkit-font-smoothing: initial;
+}
+
+#write .CodeMirror-wrap .CodeMirror-code pre {
+  padding-left: 12px;
+  line-height: 1.55rem;
+}
+
+#write .CodeMirror-cursors .CodeMirror-cursor {
+  border-left: 2px solid var(--mid-4);
+}
+
+#write code,
+tt {
+  padding: 2px 4px 1px;
+  margin: 0 2px;
+  font-family: Roboto Mono, Source Sans Pro, 'Microsoft YaHei', '微软雅黑' !important;
+  font-size: 0.92rem;
+  color: var(--main-5);
+  background-color: var(--main-1);
+  border-radius: 3px;
+}
+
+#write .md-footnote {
+  color: var(--main-5);
+  background-color: var(--main-1);
+}
+
+/* 流程图块 */
+#write .md-diagram-panel {
+  position: relative;
+  margin: 24px auto;
+}
+
+#write .md-focus .md-diagram-panel {
+  border: 1px solid var(--main-4);
+  border-radius: 4px;
+}
+
+/* heighlight. */
+#write mark {
+  padding: 2px 4px;
+  margin: 0 2px;
+  font-weight: 500;
+  color: #222222;
+  background-color: var(--main-4);
+  border-radius: 2px;
+  border-radius: 4px;
+}
+
+#write del {
+  padding: 1px 2px;
+}
+
+/* 任务列表小方框 */
+.md-task-list-item > input {
+  margin-top: 0.3rem;
+  margin-left: -1.3em;
+  -webkit-appearance: none;
+}
+
+.md-task-list-item > input::before {
+  display: inline-block;
+  width: 0.875rem;
+  height: 0.875rem;
+  margin-top: -0.4rem;
+  font-size: 0.8rem;
+  color: var(--mid-1);
+  text-align: center;
+  vertical-align: middle;
+  content: '';
+  border: 1px solid var(--main-4);
+  border-radius: 2px;
+  transition: all 0.2s linear;
+}
+
+.md-task-list-item > input:checked::before,
+.md-task-list-item > input[checked]::before {
+  font-size: 0.625rem;
+  color: var(--mid-1);
+  content: '\2714';
+  background-color: var(--main-6);
+  border: 1px solid var(--main-6);
+}
+
+@media print {
+  html {
+    font-size: 13px;
+  }
+
+  table,
+  pre {
+    page-break-inside: avoid;
+  }
+
+  pre {
+    word-wrap: break-word;
+  }
+}
+
+/* .md-fences {
+  background-color: #f8f8f8;
+} */
+
+#write pre.md-meta-block {
+  margin-top: 0 !important;
+
+  /* padding: 1rem; */
+  font-size: 85%;
+  line-height: 1.45;
+  color: #777777;
+  background-color: #f7f7f7;
+  border: 0;
+  border-radius: 3px;
+}
+
+.mathjax-block > .code-tooltip {
+  bottom: 0.375rem;
+}
+
+#write > h3.md-focus::before {
+  top: 0.375rem;
+  left: -1.5625rem;
+}
+
+#write > h4.md-focus::before {
+  top: 0.285714286rem;
+  left: -1.5625rem;
+}
+
+#write > h5.md-focus::before {
+  top: 0.285714286rem;
+  left: -1.5625rem;
+}
+
+#write > h6.md-focus::before {
+  top: 0.285714286rem;
+  left: -1.5625rem;
+}
+
+/* --- 图片 --- */
+.md-image {
+  margin: 24px auto;
+  border-radius: 4px;
+}
+
+.md-image img {
+  border: none;
+  border-radius: 4px;
+}
+
+/* 当 “![shadow-随便写]()”写时，会有阴影 */
+.md-image img[alt|='shadow'] {
+  box-shadow: 0 4px 24px -6px #dddddd;
+}
+
+.md-image > .md-meta {
+  padding: 2px 0 0 4px;
+  font-family: Consolas, 'Liberation Mono', Courier, monospace;
+  font-size: 0.9em;
+  color: inherit;
+  border-radius: 3px;
+}
+
+/* emoji */
+.md-emoji-span::before {
+  font-weight: 400;
+  vertical-align: inherit;
+  content: attr(data-emoji);
+}
+
+.md-tag {
+  color: inherit;
+}
+
+.md-toc {
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+
+.sidebar-tabs {
+  border-bottom: none;
+}
+
+#typora-quick-open {
+  background-color: #f8f8f8;
+  border: 1px solid #dddddd;
+}
+
+#typora-quick-open-item {
+  background-color: #fafafa;
+  border-color: #fefefe #e5e5e5 #e5e5e5 #eeeeee;
+  border-style: solid;
+  border-width: 1px;
+}
+
+#md-notification::before {
+  top: 10px;
+}
+
+/** focus mode */
+
+.on-focus-mode blockquote {
+  border-left-color: rgba(85, 85, 85, 0.12);
+}
+
+header,
+.context-menu,
+.megamenu-content,
+footer {
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+}
+
+.file-node-content:hover .file-node-icon,
+.file-node-content:hover .file-node-open-state {
+  visibility: visible;
+}
+
+.mac-seamless-mode #typora-sidebar {
+  background-color: var(--side-bar-bg-color);
+}
+
+.md-lang {
+  color: #b4654d;
+}
+
+.html-for-mac .context-menu {
+  --item-hover-bg-color: #e6f0fe;
+}
+
+/* 侧边栏 */
+.file-list-item.active {
+  color: var(--active-file-text-color);
+  background: var(--active-file-bg-color);
+  border-left: 4px solid var(--main-6);
+}
+
+.file-tree-node.active > .file-node-background {
+  background-color: var(--active-file-bg-color);
+  border-color: var(--active-file-border-color);
+  border-left: 4px solid var(--main-6);
+}
+
+/* ----------------- 代码块主题 ----------------- */
+
+.cm-s-inner.CodeMirror {
+  padding: 0.8rem 0 1rem;
+  color: #f0f0f0;
+  background-color: #292d3e;
+  border-radius: 4px;
+}
+
+.cm-s-inner .CodeMirror-gutters {
+  color: #676e95;
+  background: #292d3e;
+  border: none;
+}
+
+.cm-s-inner .CodeMirror-guttermarker,
+.cm-s-inner .CodeMirror-guttermarker-subtle,
+.cm-s-inner .CodeMirror-linenumber {
+  color: #676e95;
+}
+
+.cm-s-inner .CodeMirror-cursor {
+  border-left: 1px solid #ffcc00;
+}
+
+.cm-s-inner div.CodeMirror-selected {
+  background: rgba(113, 124, 180, 0.2);
+}
+
+.cm-s-inner.CodeMirror-focused div.CodeMirror-selected {
+  background: rgba(113, 124, 180, 0.2);
+}
+
+.cm-s-inner .CodeMirror-line::selection,
+.cm-s-inner .CodeMirror-line > span::selection,
+.cm-s-inner .CodeMirror-line > span > span::selection {
+  background: rgba(128, 203, 196, 0.2);
+}
+
+.cm-s-inner .CodeMirror-line::-moz-selection,
+.cm-s-inner .CodeMirror-line > span::-moz-selection,
+.cm-s-inner .CodeMirror-line > span > span::-moz-selection {
+  background: rgba(128, 203, 196, 0.2);
+}
+
+/* .cm-s-inner .CodeMirror-activeline-background {
+    background: rgba(255, 255, 255, 0.5);
+  } */
+
+.cm-s-inner .cm-keyword {
+  color: #c792ea;
+}
+
+.cm-s-inner .cm-operator {
+  color: #89ddff;
+}
+
+.cm-s-inner .cm-variable-2 {
+  color: #eeffff;
+}
+
+.cm-s-inner .cm-variable-3,
+.cm-s-inner .cm-type {
+  color: #f07178;
+}
+
+.cm-s-inner .cm-builtin {
+  color: #ffcb6b;
+}
+
+.cm-s-inner .cm-atom {
+  color: #f78c6c;
+}
+
+.cm-s-inner .cm-number {
+  color: #ff5370;
+}
+
+.cm-s-inner .cm-def {
+  color: #82aaff;
+}
+
+.cm-s-inner .cm-string {
+  color: #c3e88d;
+}
+
+.cm-s-inner .cm-string-2 {
+  color: #f07178;
+}
+
+.cm-s-inner .cm-comment {
+  color: #676e95;
+}
+
+.cm-s-inner .cm-variable {
+  color: #f07178;
+}
+
+.cm-s-inner .cm-tag {
+  color: #ff5370;
+}
+
+.cm-s-inner .cm-meta {
+  color: #ffcb6b;
+}
+
+.cm-s-inner .cm-attribute {
+  color: #c792ea;
+}
+
+.cm-s-inner .cm-property {
+  color: #c792ea;
+}
+
+.cm-s-inner .cm-qualifier {
+  color: #decb6b;
+}
+
+.cm-s-inner .cm-variable-3,
+.cm-s-inner .cm-type {
+  color: #decb6b;
+}
+
+.cm-s-inner .cm-error {
+  color: rgba(255, 255, 255, 1);
+  background-color: #ff5370;
+}
+
+.cm-s-inner .CodeMirror-matchingbracket {
+  color: white !important;
+  text-decoration: underline;
+}
+
+
+ :root {--mermaid-font-zoom:1.25em ;} 
+</style><title>write_code_dont_die</title>
+</head>
+<body class='typora-export os-windows'><div class='typora-export-content'>
+<div id='write'  class=''><h1 id='how-to-write-code-and-not-die'><span>How to write code and not die</span></h1><h2 id='must-read'><span>Must read</span></h2><ul><li><a href='https://docs.godotengine.org/en/stable/getting_started/scripting/gdscript/gdscript_styleguide.html'><span>Godot style guide</span></a></li><li><a href='https://youtu.be/-LCBgGK-BAk'><span>All you need to know about debugging </span></a></li></ul><h2 id='godot-style-guide-tldr'><span>Godot style guide TLDR</span></h2><ul><li><p><span>Use code order specified in documentation (at the bottom of the page there a script template to help you with that)</span></p></li><li><p><span>Class should be in PascalCase</span></p></li><li><p><span>Files should be in snake_case (convert class name to snake_case for scripts)</span></p></li><li><p><span>Variables and function names are in snake_case</span></p></li><li><p><span>Use single underscore before the name to denote virtual methods, private methods and private variables</span></p></li><li><p><span>Use past tense in signal names, don&#39;t add </span><code>on_</code><span> unless absolutely necessary</span></p><pre class="md-fences md-end-block ty-contain-cm modeLoaded" spellcheck="false" lang="python"><div class="CodeMirror cm-s-inner CodeMirror-wrap" lang="python"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 29.2px; left: 12px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation"><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">signal</span> <span class="cm-variable">door_opened</span></span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">signal</span> <span class="cm-variable">score_changed</span></span></pre></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 61px;"></div><div class="CodeMirror-gutters" style="display: none; height: 61px;"></div></div></div></pre></li><li><p><span>Constants are in CONSTANT_CASE, and enum members too.</span></p></li><li><p><span>Dont make long lines of code, generally they should not be longer then 80 chars</span></p></li><li><p><span>When separating a long expression into multiple lines, extra lines should be indented twice</span></p></li><li><p><span>Leave two lines before functions and class definitions</span></p></li><li><p><span>Use </span><code>and</code><span> instead of </span><code>&amp;&amp;</code><span> , </span><code>or</code><span> instead of </span><code>||</code></p></li><li><p><span>Comments should start with a space, disabled code should be </span><code>ctrl+k</code></p></li><li><p><span>Use spaces to make code more readable</span></p><p><span>Good:</span></p><pre class="md-fences md-end-block ty-contain-cm modeLoaded" spellcheck="false" lang="jsx"><div class="CodeMirror cm-s-inner CodeMirror-wrap" lang="jsx"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 29.2px; left: 12px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation" style=""><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">position</span>.<span class="cm-property">x</span> <span class="cm-operator">=</span> <span class="cm-number">5</span></span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">position</span>.<span class="cm-property">y</span> <span class="cm-operator">=</span> <span class="cm-variable">mpos</span>.<span class="cm-property">y</span> <span class="cm-operator">+</span> <span class="cm-number">10</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">dict</span>[<span class="cm-string">"key"</span>] <span class="cm-operator">=</span> <span class="cm-number">5</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">my_array</span> <span class="cm-operator">=</span> [<span class="cm-number">4</span>, <span class="cm-number">5</span>, <span class="cm-number">6</span>]</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">print</span>(<span class="cm-string">"foo"</span>)</span></pre></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 152px;"></div><div class="CodeMirror-gutters" style="display: none; height: 152px;"></div></div></div></pre><p><span>Bad:</span></p><pre class="md-fences md-end-block ty-contain-cm modeLoaded" spellcheck="false" lang="jsx"><div class="CodeMirror cm-s-inner CodeMirror-wrap" lang="jsx"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 29.2px; left: 12px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation" style=""><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">position</span>.<span class="cm-property">x</span><span class="cm-operator">=</span><span class="cm-number">5</span></span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">position</span>.<span class="cm-property">y</span> <span class="cm-operator">=</span> <span class="cm-variable">mpos</span>.<span class="cm-property">y</span><span class="cm-operator">+</span><span class="cm-number">10</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">dict</span> [<span class="cm-string">"key"</span>] <span class="cm-operator">=</span> <span class="cm-number">5</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">myarray</span> <span class="cm-operator">=</span> [<span class="cm-number">4</span>,<span class="cm-number">5</span>,<span class="cm-number">6</span>]</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">print</span> (<span class="cm-string">"foo"</span>)</span></pre></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 152px;"></div><div class="CodeMirror-gutters" style="display: none; height: 152px;"></div></div></div></pre><p><span>If you do this you die instantly:</span></p><pre class="md-fences md-end-block ty-contain-cm modeLoaded" spellcheck="false" lang="jsx"><div class="CodeMirror cm-s-inner CodeMirror-wrap" lang="jsx"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 29.2px; left: 12px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation"><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">x</span> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-operator">=</span> <span class="cm-number">100</span></span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">y</span> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-operator">=</span> <span class="cm-number">100</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">velocity</span> <span class="cm-operator">=</span> <span class="cm-number">500</span></span></pre></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 91px;"></div><div class="CodeMirror-gutters" style="display: none; height: 91px;"></div></div></div></pre></li><li><p><span>You can use </span><code>&quot;</code><span> or </span><code>&#39;</code><span> to avoid escaping quotes, beacuse </span><code>print(&quot;hello &#39;world&#39;&quot;)</code><span> is ok.</span></p></li><li><p><span>Use explicit zeros on floats</span>
+<span>Good:</span></p><pre class="md-fences md-end-block ty-contain-cm modeLoaded" spellcheck="false" lang="jsx"><div class="CodeMirror cm-s-inner CodeMirror-wrap" lang="jsx"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 29.2px; left: 12px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation"><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">var</span> <span class="cm-def">float_number</span> <span class="cm-operator">=</span> <span class="cm-number">0.234</span></span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">var</span> <span class="cm-def">other_float_number</span> <span class="cm-operator">=</span> <span class="cm-number">13.0</span></span></pre></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 61px;"></div><div class="CodeMirror-gutters" style="display: none; height: 61px;"></div></div></div></pre><p><span>  Bad:</span></p><pre class="md-fences md-end-block ty-contain-cm modeLoaded" spellcheck="false" lang="jsx"><div class="CodeMirror cm-s-inner CodeMirror-wrap" lang="jsx"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 29.2px; left: 12px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation"><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">var</span> <span class="cm-def">float_number</span> <span class="cm-operator">=</span> <span class="cm-number">.234</span></span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">var</span> <span class="cm-def">other_float_number</span> <span class="cm-operator">=</span> <span class="cm-number">13.</span></span></pre></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 61px;"></div><div class="CodeMirror-gutters" style="display: none; height: 61px;"></div></div></div></pre></li><li><p><span>GDscript has decimal, hex and binary leterals and all of them have separators:</span></p><pre class="md-fences md-end-block ty-contain-cm modeLoaded" spellcheck="false" lang="python"><div class="CodeMirror cm-s-inner CodeMirror-wrap" lang="python"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 29.2px; left: 12px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation" style=""><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">var</span> <span class="cm-variable">large_number</span> = <span class="cm-number">1_234_567_890</span></span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">var</span> <span class="cm-variable">large_hex_number</span> = <span class="cm-number">0xffff_f8f8_0000</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">var</span> <span class="cm-variable">large_bin_number</span> = <span class="cm-number">0b1101_0010_1010</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment"># Numbers lower than 1000000 generally don't need separators.</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">var</span> <span class="cm-variable">small_number</span> = <span class="cm-number">12345</span></span></pre></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 152px;"></div><div class="CodeMirror-gutters" style="display: none; height: 152px;"></div></div></div></pre></li></ul><p>&nbsp;</p><h2 id='best-practices-tldr'><span>Best practices TLDR:</span></h2><p><a href='[https://docs.godotengine.org/en/latest/tutorials/best_practices/index.html](https://docs.godotengine.org/en/latest/tutorials/best_practices/index.html)'><span>Best practices full document</span></a></p><ul><li><p><span>Nodes should really know only about nodes directly below them, to talk to nodes higher or on the same level use:</span></p><ul><li><span>Signals</span></li><li><span>Make the node call a funcref that other node sets</span></li><li><span>Make the node manipulate a node reference that other node sets.</span>
+<span>Make sure that no reference loops occur (aka two or more nodes reference each other in a loop and none of them can ever be freed), use weakref to break such loops</span></li><li><span>Make the node manipulate a NodePath that other node sets.</span>
+<span>(Personally i found NodePath&#39;s to be a bit flaky, but its the only way to export node references in editor)</span></li><li><span>When you want two nodes on the same level talk parent can help them make contact</span></li></ul></li><li><p><span>Use general OOP principles:</span></p><ul><li><a href='https://en.wikipedia.org/wiki/SOLID'><span>SOLID</span></a></li><li><a href='https://en.wikipedia.org/wiki/Don%27t_repeat_yourself'><span>DRY</span></a></li><li><a href='https://en.wikipedia.org/wiki/KISS_principle'><span>KISS</span></a></li><li><a href='https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it'><span>YAGNI</span></a></li></ul></li><li><p><span>Autoloads should be used sparingly (because then can trigger massive hard to find bugs)</span></p></li><li><p><span>(Its not actually said here but) DONT use preload or load, export PackedScene or [aplicable resource type here] instead, because if you want to move or rename some file, export will update but preaload and load will instead explode.</span></p></li><li><p><span>Dictionary is a HashMap, Array is a Vector, use type specialized array when speed is key.</span></p></li><li><p><span>Object is secretly a dictionary too.</span></p></li><li><p><span>Whatever your project structure is use snake_case for files and folders, otherwise on some platforms shit will explode on export and everyone is gonna have a bad time 💀.</span></p></li><li><p><span>Always close the editor before running </span><code>git pull</code><span>! Otherwise, you may lose data if you synchronize files while the editor is open.</span></p></li></ul><h2 id='notes-from-experience'><span>Notes from experience</span></h2><ul><li><p><code>get_parent</code><span> is evil, prefer using signals</span></p></li><li><p><span>Don&#39;t use hardcoded paths to nodes, all paths should be in a variable so its easier to change later.</span></p></li><li><p><span>When commenting code use </span><code>ctrl+k</code><span> it actually saves time.</span></p></li><li><p><span>Always use Godot static typing system</span></p></li><li><p><span>Always explicitly state types for variables</span>
+<span>(I died inside more then once from </span><code>float_value := 1337</code><span>)</span></p></li><li><p><span>Enums are epic</span></p></li><li><p><span>Use getters and setters when accessing data from a different script</span></p></li><li><p><span>No magic numbers (except 0, 1 and 2). Even it is not a good export varible it still probably has a good name.</span></p></li><li><p><span>Have at least minimal comments</span></p></li><li><p><span>Give your script a </span><code>class_name</code><span> and use it as a type in static typing.</span></p></li><li><p><span>Use </span><code>_physics_process</code><span> instead of </span><code>_process</code><span>.</span></p></li><li><p><span>Multiply stuff by delta time to tie it to realtime instead of frames, and don&#39;t forget to check with lower and higher framerates.</span></p></li><li><p><span>Always test that all code paths actually work.</span></p></li><li><p><span>Make sure that your scripts are not bloated with functionality, use extra child nodes for handling extra features.</span></p></li><li><p><span>Every scene should have a folder for itself and for resources that it uses.</span></p></li><li><p><span>If a function can return an error, always check.</span></p></li><li><p><span>Prints are your friend, but always have a string telling where this noname float value is printed from. Also its very nice to have a way to disable them without commenting.</span></p></li><li><p><span>Enable saving logs to disk, sometimes it really helps to have output log from 5 launches ago.</span></p></li><li><p><span>Godot actually has bugs sometimes:</span></p><ul><li><span>Sometimes delta time in </span><code>_process</code><span> and </span><code>_physics_process</code><span> is 0, check at the start of the function and return immediately if its the case, otherwise anything can happen.</span></li><li><span>With some of the scaling options UI elements can explode randomly when changing window sizes, if its the case just </span><code>set_rect_position</code><span> and </span><code>set_rect_size</code><span> everything where it belongs</span></li><li><span>Key bindings for Mac are scuffed, but i have the wizardry to make them work (i really should report it and make a pull request).</span></li><li><span>Debugger on some rare occasions fucking dies, in this case try using </span><code>print</code><span> while praying.</span>
+<span>I remember one time i got this i had a freed node as a key in a dictionary..</span></li></ul></li><li><p><span>variable names should start with the general thing they refer to, then what they represent in that thing, then if its an attribute of thing they represent - the attribute.</span>
+<span>This is done to make autocompletion easier and to avoid remembering variable names by heart</span>
+<span>e.g. : jiggle_position_max</span></p></li><li><p><span>Don&#39;t mix Controls and Node2D&#39;s, Controls are made for UI.</span>
+<span>Some rare exceptions are ok, like having TextureRect instead of Sprite2D.</span></p></li><li><p><span>Your scripts should &quot;compile&quot; with no warnings, you may suppress manually these types of warnings (ping me to show cases where other types of warnings are useless):</span></p><ul><li><span>return_value_discarded</span></li></ul></li><li><p><span>Use </span><code>pass</code><span> only for defining empty functions</span></p></li><li><p><span>Your scene should be at (0, 0) with (1, 1) scale</span></p></li><li><p><span>Minimize amount of non (1, 1) scale and non (0, 0) position nodes</span></p></li><li><p><span>Use pixel snap for positions, some kind of rotation and scale snap is good too</span></p></li><li><p><span>Be careful with scale, updating it in code after setting it in editor can cause problems</span></p></li></ul><h2 id='script-template'><span>Script template:</span></h2><p><span>Don&#39;t delete unused sections, uncomment needed pieces of code</span></p><p><a href='How to write code and not die/new_script.gd'><span>new_script.gd</span></a></p><p>&nbsp;</p></div></div>
+</body>
+</html>

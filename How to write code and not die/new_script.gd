@@ -1,0 +1,27 @@
+#tool
+#class_name what
+extends what
+
+#SIGNALS
+
+#ENUMS
+
+#CONSTANTS
+
+#EXPORTS
+
+#PUBLIC VARIABLES
+
+#PRIVATE VARIABLES
+
+#ONREADY VARIABLES
+
+#func _init():
+
+#func _ready():
+
+#GODOT BUILTIN VIRTUAL METHODS
+
+#PUBLIC METHODS
+
+#PRIVATE METHODS
