@@ -1,5 +1,7 @@
 # How to write code and not die
 
+Document by Maks Loboda
+
 ## Must read
 
 - [Godot style guide](https://docs.godotengine.org/en/stable/getting_started/scripting/gdscript/gdscript_styleguide.html)
