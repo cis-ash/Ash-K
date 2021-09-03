@@ -14,6 +14,7 @@
 
 ## Writing
 
+- [NUKEHECK postmortem](https://ash-k.itch.io/nukeheck/devlog/289850/postmortem-and-inspirations) : inspirations, design and technical challenges behind the insane arcade MMO shooter
 - [agile tutorial](agile_tutorial.pdf) : an introduction for teammates
 - [orders of noise](orders_of_noise.html) : article about animals, drugs, culture and creativity
 - [send data to sheets](sending_data_to_sheets.html) : get telemetry from game to google sheets (no $$$ required)
