@@ -22,7 +22,7 @@ title: Ashley Kamenska Portfolio
 email: ashkamensk@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Ashley Kamenska is a game designer, game developer and multimedia artist based in the Greater Toronto Area, Ontario. This is her professional portfolio site!
-baseurl: "/Ash-K/" # the subpath of your site, e.g. /blog
+#baseurl: "/Ash-K/" # the subpath of your site, e.g. /blog
 url: "https://ash-k.dev" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: cis_ash
 github_username:  cis-ash

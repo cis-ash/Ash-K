@@ -250,7 +250,8 @@ GEM
       faraday (>= 0.17.3, < 3)
     simpleidn (0.2.1)
       unf (~> 0.1.4)
-    terminal-table (1.6.0)
+    terminal-table (1.8.0)
+      unicode-display_width (~> 1.1, >= 1.1.1)
     typhoeus (1.4.1)
       ethon (>= 0.9.0)
     tzinfo (2.0.6)
@@ -260,6 +261,7 @@ GEM
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.9.1-x64-mingw-ucrt)
+    unicode-display_width (1.8.0)
     uri (0.13.0)
     wdm (0.1.1)
     webrick (1.8.1)
@@ -268,7 +270,7 @@ PLATFORMS
   x64-mingw-ucrt
 
 DEPENDENCIES
-  github-pages (~> 228)
+  github-pages
   http_parser.rb (~> 0.6.0)
   jekyll-feed (~> 0.12)
   minima (~> 2.5)
