@@ -4,3 +4,12 @@
 
 layout: home
 ---
+# the home page
+## this is a test section
+
+this is some text in this section!
+
+here is a link to [:another section](#x-this-is-another-section-it-will-be-embedded-with-nutshell)
+
+## :x this is another section, it will be embedded with nutshell
+some more stuff is written here!
