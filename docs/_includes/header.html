@@ -1,5 +1,17 @@
 <header class="header">
-
+	<script src="https://cdn.jsdelivr.net/gh/ncase/nutshell/nutshell.js"></script>
+	<script>
+	Nutshell.setOptions({
+		startOnLoad: true, // Start Nutshell on load? (default: true)
+		lang: 'en', // Language (default: 'en', which is English)
+		dontEmbedHeadings: true, // If 'true', removes the "embed this as a nutshell" option on headings
+	});
+	</script>
+	<style>
+	.nutshell-expandable{
+		border-bottom: solid 10px;
+	}
+	</style>
 	<div class="header__content">
 
 		{% if site.data.settings.header_settings.logo_image %}
@@ -51,5 +63,4 @@
 		</div>
 
 	</div>
-
 </header>
